@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[960, 600]"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Component id="subscriptionKeyLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="subscriptionKeyTextField" min="-2" pref="240" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="subscriptionTextRegionLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="subscriptionRegionComboBox" min="-2" pref="115" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="tabbedPane" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="tabbedPane" max="32767" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="subscriptionKeyLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="subscriptionKeyTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="subscriptionTextRegionLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="subscriptionRegionComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="tabbedPane">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="analyzePanel">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Analyze">
+                <Property name="tabTitle" type="java.lang.String" value="Analyze"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="analyzeScrollPane" alignment="0" min="-2" pref="400" max="-2" attributes="0"/>
+                                  <Component id="analyzeResponseLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="analyzeSourceImageLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="437" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="analyzeImage" max="32767" attributes="0"/>
+                                  <Component id="analyzeCaptionLabel" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="analyzeImagePromptLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="analyzeImageUriTextBox" min="-2" pref="240" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="analyzeImageButton" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="analyzeTitleLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="analyzeInstructionLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="analyzeTitleLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="analyzeInstructionLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="analyzeImagePromptLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="analyzeImageUriTextBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="analyzeImageButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="analyzeResponseLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="analyzeSourceImageLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="analyzeScrollPane" pref="404" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="analyzeImage" max="32767" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="analyzeCaptionLabel" min="-2" pref="14" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="analyzeTitleLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Analyze image:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="analyzeInstructionLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Enter the URL to an image of a natural or artificial landmark, then click the &quot;Analyze Image&quot; button. "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="analyzeImagePromptLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Image to analyze:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="analyzeImageUriTextBox">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/tutorials/media/javatutorial/WhitehorseFallsOregon.jpg"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="analyzeImageButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Analyze Image"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="analyzeImageButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="analyzeResponseLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Response:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="analyzeSourceImageLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Source image:"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="analyzeScrollPane">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="analyzeResponseTextArea">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="analyzeImage">
+            </Component>
+            <Component class="javax.swing.JLabel" name="analyzeCaptionLabel">
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="landmarkPanel">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Landmark">
+                <Property name="tabTitle" type="java.lang.String" value="Landmark"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="landmarkScrollPane" min="-2" pref="400" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="landmarkImage" max="32767" attributes="0"/>
+                                  <Component id="landmarkCaptionLabel" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="landmarkTitleLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="landmarkInstructionLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="landmarkImagePromptLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="landmarkImageUriTextBox" min="-2" pref="240" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="landmarkImageButton" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="landmarkResponseLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="359" max="-2" attributes="0"/>
+                                      <Component id="landmarkSourceImageLabel" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="0" pref="423" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="landmarkTitleLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="landmarkInstructionLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="landmarkImagePromptLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="landmarkImageUriTextBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="landmarkImageButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="landmarkResponseLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="landmarkSourceImageLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="landmarkScrollPane" pref="408" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="landmarkImage" max="32767" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="landmarkCaptionLabel" min="-2" pref="14" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="landmarkTitleLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Landmark image:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="landmarkInstructionLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Enter the URL to an image of a natural or artificial landmark, then click the &quot;Analyze Image&quot; button. "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="landmarkImagePromptLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Landscape image to analyze:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="landmarkImageUriTextBox">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/tutorials/media/javatutorial/SpaceNeedle.jpg"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="landmarkImageButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Analyze Image"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="landmarkImageButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="landmarkResponseLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Response:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="landmarkSourceImageLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Source image:"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="landmarkScrollPane">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="landmarkResponseTextArea">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="landmarkImage">
+            </Component>
+            <Component class="javax.swing.JLabel" name="landmarkCaptionLabel">
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="celebritiesPanel">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Celebrities">
+                <Property name="tabTitle" type="java.lang.String" value="Celebrities"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="celebritiesTitleLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="celebritiesInstructionLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="celebritiesImagePromptLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="celebritiesImageUriTextBox" min="-2" pref="240" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="celebritiesImageButton" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="0" pref="431" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="celebritiesScrollPane" alignment="0" min="-2" pref="400" max="-2" attributes="0"/>
+                                  <Component id="celebritiesResponseLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="celebritiesImage" max="32767" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <Component id="celebritiesSourceImageLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="celebritiesCaptionLabel" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="celebritiesTitleLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="celebritiesInstructionLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="celebritiesImagePromptLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="celebritiesImageUriTextBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="celebritiesImageButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="celebritiesSourceImageLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="celebritiesResponseLabel" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="celebritiesScrollPane" pref="408" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="celebritiesImage" max="32767" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="celebritiesCaptionLabel" min="-2" pref="14" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="celebritiesTitleLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Celebrities:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="celebritiesInstructionLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Enter the URL to an image of a celebrity, then click the &quot;Analyze Image&quot; button. "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="celebritiesImagePromptLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Celebrity image to analyze:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="celebritiesImageUriTextBox">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="https://news.microsoft.com/security2015/assets/photos/slides/satya_slide.jpg"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="celebritiesImageButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Analyze Image"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="celebritiesImageButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="celebritiesResponseLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Response:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="celebritiesSourceImageLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Source image:"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="celebritiesScrollPane">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="celebritiesResponseTextArea">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="celebritiesImage">
+            </Component>
+            <Component class="javax.swing.JLabel" name="celebritiesCaptionLabel">
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="thumbnailPanel">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Thumbnail">
+                <Property name="tabTitle" type="java.lang.String" value="Thumbnail"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="thumbnailTitleLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="thumbnailInstructionLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="thumbnailImagePromptLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="thumbnailImageUriTextBox" min="-2" pref="240" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="thumbnailImageButton" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="thumbnailScrollPane" alignment="0" min="-2" pref="400" max="-2" attributes="0"/>
+                                  <Component id="thumbnailResponseLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="thumbnailSourceImageLabel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="thumbnailSourceImage" min="-2" pref="395" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="10" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="thumbnailImage" min="-2" pref="100" max="-2" attributes="0"/>
+                          <Component id="thumbnailThumbnailLabel" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="thumbnailTitleLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="thumbnailInstructionLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="thumbnailImagePromptLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="thumbnailImageUriTextBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="thumbnailImageButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="thumbnailResponseLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="thumbnailSourceImageLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="thumbnailThumbnailLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="thumbnailScrollPane" max="32767" attributes="0"/>
+                          <Component id="thumbnailSourceImage" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="thumbnailImage" min="-2" pref="150" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="258" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="thumbnailTitleLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Generate thumbnail iamge:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="thumbnailInstructionLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Enter the URL to an image to use in creating a thumbnail image, then click the &quot;Generate Thumbnail&quot; button."/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="thumbnailImagePromptLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Image for thumnail:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="thumbnailImageUriTextBox">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/tutorials/media/javatutorial/InquisitiveDog.jpg"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="thumbnailImageButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Generate Thumbnail"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="thumbnailImageButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="thumbnailResponseLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Response:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="thumbnailSourceImageLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Source image:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="thumbnailThumbnailLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Thumbnail:"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="thumbnailScrollPane">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="thumbnailResponseTextArea">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="thumbnailSourceImage">
+            </Component>
+            <Component class="javax.swing.JLabel" name="thumbnailImage">
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="ocrPanel">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="OCR">
+                <Property name="tabTitle" type="java.lang.String" value="OCR"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="ocrTitleLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="ocrInstructionLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="ocrImagePromptLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="ocrImageUriTextBox" min="-2" pref="240" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="ocrImageButton" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="ocrScrollPane" alignment="0" min="-2" pref="400" max="-2" attributes="0"/>
+                                  <Component id="ocrResponseLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="ocrSourceImageLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace pref="447" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="ocrImage" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="ocrTitleLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="ocrInstructionLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="ocrImagePromptLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ocrImageUriTextBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ocrImageButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="ocrResponseLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ocrSourceImageLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="ocrImage" max="32767" attributes="0"/>
+                          <Component id="ocrScrollPane" pref="408" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="ocrTitleLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Optical Character Recognition (OCR):"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ocrInstructionLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Enter the URL to an image of printed text, then click the &quot;Read Image&quot; button."/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ocrImagePromptLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Image to read:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="ocrImageUriTextBox">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/tutorials/media/javatutorial/OcrTest.jpg"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="ocrImageButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Read Image"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ocrImageButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ocrResponseLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Response:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ocrSourceImageLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Source image:"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="ocrScrollPane">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="ocrResponseTextArea">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="ocrImage">
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="handwritingPanel">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Read Handwritten Text">
+                <Property name="tabTitle" type="java.lang.String" value="Read Handwritten Text"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="handwritingTitleLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="handwritingInstructionLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="handwritingImagePromptLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="handwritingImageUriTextBox" min="-2" pref="240" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="handwritingImageButton" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="handwritingScrollPane" alignment="0" min="-2" pref="400" max="-2" attributes="0"/>
+                                  <Component id="handwritingResponseLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="handwritingSourceImageLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace pref="447" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="handwritingImage" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="handwritingTitleLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="handwritingInstructionLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="handwritingImagePromptLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="handwritingImageUriTextBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="handwritingImageButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="handwritingResponseLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="handwritingSourceImageLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="handwritingImage" max="32767" attributes="0"/>
+                          <Component id="handwritingScrollPane" pref="408" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="handwritingTitleLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Read handwritten text:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="handwritingInstructionLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Enter the URL to an image of handwritten text, then click the &quot;Read Image&quot; button."/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="handwritingImagePromptLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Image to read:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="handwritingImageUriTextBox">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/tutorials/media/javatutorial/HandwrittenTextTest.jpg"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="handwritingImageButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Read Image"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="handwritingImageButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="handwritingResponseLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Response:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="handwritingSourceImageLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Source image:"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="handwritingScrollPane">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="handwritingResponseTextArea">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="handwritingImage">
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="subscriptionKeyLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Subscription Key:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="subscriptionKeyTextField">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Copy/paste your subscription key here."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="subscriptionTextRegionLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Subscription Region:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="subscriptionRegionComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new javax.swing.DefaultComboBoxModel&lt;&gt;(new String[] { &quot;westcentralus&quot;, &quot;westus&quot;, &quot;eastus2&quot;, &quot;westeurope&quot;, &quot;southeastasia&quot; })" type="code"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+  </SubComponents>
+</Form>
