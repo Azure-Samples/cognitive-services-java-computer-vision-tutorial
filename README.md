@@ -1,57 +1,17 @@
 # Project Name
 
-(short, 1-3 sentenced, description of the project)
-
-## Features
-
-This project framework provides the following features:
-
-* Feature 1
-* Feature 2
-* ...
+This tutorial shows the features of the Microsoft Cognitive Services Computer Vision REST API by using Java.
 
 ## Getting Started
 
-### Prerequisites
-
-(ideally very short, if any)
-
-- OS
-- Library version
-- ...
-
 ### Installation
 
-(ideally very short)
-
-- npm install [package name]
-- mvn install
-- ...
+1. Download the project as a .zip file from github.com
+1. In NetBeans, import the project by using **File** > **Import project** > **From ZIP**. The **Import Project(s) from ZIP** dialog will appear.
+1. For **Zip File**, browse to locate the .zip file downloaded from github.com.
+1. For **Folder**, browse to locate the folder where you want to put the new NetBeans project.
+1. Click the **Import** button. The project will be imported into NetBeans.
 
 ### Quickstart
-(Add steps to get up and running quickly)
 
-1. git clone [repository clone url]
-2. cd [respository name]
-3. ...
-
-
-## Demo
-
-A demo app is included to show how to use the project.
-
-To run the demo, follow these steps:
-
-(Add steps to start up the demo)
-
-1.
-2.
-3.
-
-## Resources
-
-(Any additional resources or related projects)
-
-- Link to supporting information
-- Link to similar sample
-- ...
+The instructions for the tutorial can be found [here](link to be added).
