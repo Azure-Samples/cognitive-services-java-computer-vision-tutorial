@@ -14,4 +14,4 @@ This tutorial shows the features of the Microsoft Cognitive Services Computer Vi
 
 ## Instructions
 
-The instructions for the tutorial can be found at [Computer Vision API Java Tutorial](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/tutorials/javatutorial).
+The instructions for the tutorial can be found at [Computer Vision API Java Tutorial](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/tutorials/java-tutorial).
