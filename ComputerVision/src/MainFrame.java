@@ -148,8 +148,6 @@ public class MainFrame extends javax.swing.JFrame {
 
         analyzeImagePromptLabel.setText("Image to analyze:");
 
-        analyzeImageUriTextBox.setText("https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/tutorials/media/javatutorial/WhitehorseFallsOregon.jpg");
-
         analyzeImageButton.setText("Analyze Image");
         analyzeImageButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -232,8 +230,6 @@ public class MainFrame extends javax.swing.JFrame {
 
         landmarkImagePromptLabel.setText("Landscape image to analyze:");
 
-        landmarkImageUriTextBox.setText("https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/tutorials/media/javatutorial/SpaceNeedle.jpg");
-
         landmarkImageButton.setText("Analyze Image");
         landmarkImageButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -315,8 +311,6 @@ public class MainFrame extends javax.swing.JFrame {
 
         celebritiesImagePromptLabel.setText("Celebrity image to analyze:");
 
-        celebritiesImageUriTextBox.setText("https://news.microsoft.com/security2015/assets/photos/slides/satya_slide.jpg");
-
         celebritiesImageButton.setText("Analyze Image");
         celebritiesImageButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -397,8 +391,6 @@ public class MainFrame extends javax.swing.JFrame {
         thumbnailInstructionLabel.setText("Enter the URL to an image to use in creating a thumbnail image, then click the \"Generate Thumbnail\" button.");
 
         thumbnailImagePromptLabel.setText("Image for thumnail:");
-
-        thumbnailImageUriTextBox.setText("https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/tutorials/media/javatutorial/InquisitiveDog.jpg");
 
         thumbnailImageButton.setText("Generate Thumbnail");
         thumbnailImageButton.addActionListener(new java.awt.event.ActionListener() {
@@ -483,8 +475,6 @@ public class MainFrame extends javax.swing.JFrame {
 
         ocrImagePromptLabel.setText("Image to read:");
 
-        ocrImageUriTextBox.setText("https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/tutorials/media/javatutorial/OcrTest.jpg");
-
         ocrImageButton.setText("Read Image");
         ocrImageButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -562,8 +552,6 @@ public class MainFrame extends javax.swing.JFrame {
         handwritingInstructionLabel.setText("Enter the URL to an image of handwritten text, then click the \"Read Image\" button.");
 
         handwritingImagePromptLabel.setText("Image to read:");
-
-        handwritingImageUriTextBox.setText("https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/tutorials/media/javatutorial/HandwrittenTextTest.jpg");
 
         handwritingImageButton.setText("Read Image");
         handwritingImageButton.addActionListener(new java.awt.event.ActionListener() {

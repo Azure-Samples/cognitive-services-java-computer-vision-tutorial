@@ -171,9 +171,6 @@
               </Properties>
             </Component>
             <Component class="javax.swing.JTextField" name="analyzeImageUriTextBox">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/tutorials/media/javatutorial/WhitehorseFallsOregon.jpg"/>
-              </Properties>
             </Component>
             <Component class="javax.swing.JButton" name="analyzeImageButton">
               <Properties>
@@ -314,9 +311,6 @@
               </Properties>
             </Component>
             <Component class="javax.swing.JTextField" name="landmarkImageUriTextBox">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/tutorials/media/javatutorial/SpaceNeedle.jpg"/>
-              </Properties>
             </Component>
             <Component class="javax.swing.JButton" name="landmarkImageButton">
               <Properties>
@@ -459,9 +453,6 @@
               </Properties>
             </Component>
             <Component class="javax.swing.JTextField" name="celebritiesImageUriTextBox">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="https://news.microsoft.com/security2015/assets/photos/slides/satya_slide.jpg"/>
-              </Properties>
             </Component>
             <Component class="javax.swing.JButton" name="celebritiesImageButton">
               <Properties>
@@ -600,9 +591,6 @@
               </Properties>
             </Component>
             <Component class="javax.swing.JTextField" name="thumbnailImageUriTextBox">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/tutorials/media/javatutorial/InquisitiveDog.jpg"/>
-              </Properties>
             </Component>
             <Component class="javax.swing.JButton" name="thumbnailImageButton">
               <Properties>
@@ -745,9 +733,6 @@
               </Properties>
             </Component>
             <Component class="javax.swing.JTextField" name="ocrImageUriTextBox">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/tutorials/media/javatutorial/OcrTest.jpg"/>
-              </Properties>
             </Component>
             <Component class="javax.swing.JButton" name="ocrImageButton">
               <Properties>
@@ -883,9 +868,6 @@
               </Properties>
             </Component>
             <Component class="javax.swing.JTextField" name="handwritingImageUriTextBox">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/tutorials/media/javatutorial/HandwrittenTextTest.jpg"/>
-              </Properties>
             </Component>
             <Component class="javax.swing.JButton" name="handwritingImageButton">
               <Properties>
